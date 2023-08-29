@@ -1,0 +1,17 @@
+{
+  "name": "react-group-session_18",
+  "private": true,
+  "workspaces": [
+    "react-ts-event-handling",
+    "react-ts-event-handling-lab",
+    "react-ts-fragments",
+    "react-ts-children",
+    "react-ts-state-and-events-codealong",
+    "react-ts-state-arrays",
+    "react-ts-state-and-events-lab",
+    "react-ts-information-flow-code-along",
+    "react-ts-information-flow-lab",
+    "react-ts-state-events-mini-project"
+  ],
+  "packageManager": "yarn@3.6.3"
+}
