@@ -2,6 +2,7 @@
   "name": "react-group-session_18",
   "private": true,
   "workspaces": [
+    "project-showcase",
     "react-ts-event-handling",
     "react-ts-event-handling-lab",
     "react-ts-fragments",
@@ -13,5 +14,8 @@
     "react-ts-information-flow-lab",
     "react-ts-state-events-mini-project"
   ],
-  "packageManager": "yarn@3.6.3"
+  "packageManager": "yarn@3.6.3",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  }
 }

@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.App {
+  text-align: center;
+  padding: 50px;
+  background-color: #f0f0f0;
+}

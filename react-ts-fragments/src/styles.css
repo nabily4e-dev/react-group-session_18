@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.parent {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+}
+
+section {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-top: 0.25rem;
+  color: #555;
+}

@@ -1,35 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import Bookshelf from "./components/bookshelf";
+import ParentComponent from "./components/parent-component";
+import './styles.css'
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+interface Book {
+  id: number;
+  title: string;
+  author: string;
 }
 
-export default App
+const books: Book[] = [
+  { id: 1, title: "Book 1", author: "Author 1" },
+  { id: 2, title: "Book 2", author: "Author 2" },
+  // Add more books here
+];
+
+function App() {
+  return (
+    <>
+      <h1>Vite + React</h1>
+      <div className='app'>
+        <h1>React Fragments Example</h1>
+        <ParentComponent />
+        <Bookshelf books={books} />
+      </div>
+    </>
+  );
+}
+
+export default App;
